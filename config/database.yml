@@ -8,9 +8,9 @@ default: &default
 
 development:
   <<: *default
-  database: rails-and-rust_development
+  database: rails_pg_in_docker_development
 
 
 test:
   <<: *default
-  database: rails-and-rust_test
+  database: rails_pg_in_docker_test
